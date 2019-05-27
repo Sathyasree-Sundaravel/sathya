@@ -1,5 +1,5 @@
 #Find largest number among three number
-a,b,c=int(input()),int(input()),int(input())
+a,b,c=input().split()
 if(a>b):
     if(a>c):
         print(a)
