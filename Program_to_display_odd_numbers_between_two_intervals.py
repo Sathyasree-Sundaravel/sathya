@@ -1,4 +1,4 @@
-#Display odd numbers between two integers
+#Display odd numbers between two intervals
 N,Q=input().split()
 N=int(N)
 Q=int(Q)
