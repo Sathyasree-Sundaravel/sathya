@@ -2,13 +2,11 @@
 a=int(input())
 L=list(map(int,input().split()))
 b=[]
-for i in range(0,a-1):
-    for j in range(i+1,a):
-        if(L[i]==L[j]):
-            b.append(L[i])
-b.sort()
-
-if(len(b)==0):
+for j in L:
+    if L.count(j)>1:
+        b.append(j)
+c=set(b)
+if(len(c)==0):
     print("unique")
 else:
-    print(*b)
+    print(*c)
