@@ -1,4 +1,4 @@
 #Program to reverse every word in the string
-k1=input().split()
-for i in range(0,len(k1)):
-    print(k1[i][::-1],end=" ")
+L=input().split()
+for i in range(0,len(L)):
+    print(L[i][::-1],end=" ")
