@@ -1,4 +1,4 @@
-#Find the number is multiple of multiple
+#Find the number is multiple of seven
 a=int(input())
 if(a%7==0):
     print("yes")
